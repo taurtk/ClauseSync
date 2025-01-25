@@ -1,3 +1,4 @@
 streamlit
 requests
 nest_asyncio
+pdfplumber  
