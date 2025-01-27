@@ -230,8 +230,8 @@ uploaded_file = st.file_uploader("Drag and drop your contract file or click to b
 
 if uploaded_file is not None:
     # Check file size
-    if uploaded_file.size > 100 * 1024:  # 100 KB in bytes
-        st.error("File size exceeds 100 KB. Please upload a smaller file.")
+    if uploaded_file.size > 200 * 1024:  # 100 KB in bytes
+        st.error("File size exceeds 200 KB. Please upload a smaller file.")
     else:
         try:
             # Extract text from the uploaded file
